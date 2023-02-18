@@ -4,7 +4,20 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+
+<script type="text/javascript">
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+</script>
+ 
+
 <html>
+
+
 	<head>
 		<title>Joonkyo Hong</title>
 		<meta charset="utf-8" />
@@ -28,49 +41,54 @@
 
 				<!-- One -->
 					<section id="one">
+                                <h2>About</h2>
 						<p align="left"> Welcome! I am a Ph.D. candidate in the Department of Economics at The Pennsylvania State University. My primary field is empirical industrial organization. My research interests focus on the estimation of the firms' dynamic decisions and examining their implications for industry performance in both individual and strategic settings. </p>
 						<p> You can find my <a href = "cv.pdf"  target="_blank"> CV </a>.</p>
+
 					</section>
 
 
 				<!-- Two -->
-					<section id="jmp">
-					<h2> Job Market Paper</h2>
-
-					<h4> <a href = "jmp_joonkyo.pdf"  target="_blank"> Sunk Cost and Entrant's Choice of Capacity   </a> </h4>                                
-	
-					<p align="left"> <b><u>Abstract</u>:  I develop a dynamic model of strategic entry to study how the structure of sunk entry costs influences the entrant's scale decision and the long-run market outcomes. Contrary to the typical dynamic entry model, my model features that the structure of sunk costs shapes not the number of competitors but also the industry's scale distribution. I empirically assess this channel using a case study of a land-use deregulatory reform in the South Korean cinema chain industry. The deregulation is estimated to act as an entry subsidy, particularly appealing to larger-scale theaters. However, the industry suffers a 5.6 percent loss of discounted net profits due to intensified competition and increased expenses on fixed operating costs. The resulting implicit cost of the regulatory action is not uncovered by the typical model, as it obscures the shift in the distribution toward a larger scale.</p>
-					
-                                         <p align="left">  <b><em> Presentation </em>: 17th EGSC at Washington University in St. Louis </p>
-                                        </section>
-
-
-
-				<!-- Three -->
 					<section id="wp">
 					<h2>Working Papers</h2>
 
-					<h4>  <a href = "wp1_joonkyo.pdf"  target="_blank"> The Differential Effect of Exporting on Input Productivities  </a> </h4>	
-					<p align="left"> <b><u>Abstract</u>: </b> Many empirical studies document that entering the export market raises a firm's productivity. I study whether entering the export market results in differential increases in input productivities at the firm level (non-neutral change). I develop a model that distinguishes between firm-level skilled and unskilled labor-augmenting productivities and material input prices. Applying the model to data on the Colombian apparel manufacturers, I find that exporting raises the skilled labor-augmenting productivity by a 7.2-percentage point more than the unskilled counterpart. In a counterfactual simulation in which exporting raises the two productivities equally, the mean differences in skilled-to-unskilled employee ratios between exporters and non-exporters are 50 percent smaller than the data counterparts. The result suggests that non-neutral productivity gain from trade is central in shaping the input allocation differences between exporters and non-exporters. </p>
+                           <h4> <a href = "jmp_joonkyo.pdf"  target="_blank"> Sunk Cost and Entrant's Choice of Capacity   </a> <em> -- Job Market Paper </em></h4> <em> Presentation </em>: 17th EGSC at Washington University in St. Louis </p>
 
-			                <h4> <a href = "wp2_joonkyo.pdf"  target="_blank"> Trade Dynamics of Colombian Chemical Plants: Productivity and Trade Cost Complementarity </a>  </h4>	
-					<p align="left"> <b><u>Abstract</u>: </b> This paper estimates a dynamic model of the firm's joint export and import decision process. In the model, participating in trade improves within-period profits and future productivity. In addition, doing one trade activity facilitates the other by reducing the associated fixed/sunk costs. Employing a Bayesian MCMC estimator, I fit the model to Colombian chemical plant panel data from 1981 to 1985. Two findings stand out: (i) importing increases future productivity significantly while exporting does not. (ii) importing facilitates exporting by lowering the sunk costs of entering the export market, while exporting facilitates importing by decreasing the fixed costs of continuing import. A counterfactual simulation shows that subsidizing the fixed costs of importing is the most effective among trade cost subsidy schemes in improving the average productivity and firm value. </p>
+                            <p align="left">  <a href="javascript: void(0);" onClick="toggle('q1')">Abstract</a>
+
+                            <div id="q1" style="display:none;">
+I develop a dynamic model of strategic entry to study how the structure of sunk entry costs influences the entrant's scale decision and the long-run market outcomes. Contrary to the typical dynamic entry model, my model features that the structure of sunk costs shapes not the number of competitors but also the industry's scale distribution. I empirically assess this channel using a case study of a land-use deregulatory reform in the South Korean cinema chain industry. The deregulation is estimated to act as an entry subsidy, particularly appealing to larger-scale theaters. However, the industry suffers a 5.6 percent loss of discounted net profits due to intensified competition and increased expenses on fixed operating costs. The resulting implicit cost of the regulatory action is not uncovered by the typical model, as it obscures the shift in the distribution toward a larger scale. </div></p>
+                 
+					<h4>  <a href = "wp1_joonkyo.pdf"  target="_blank"> The Differential Effect of Exporting on Input Productivities  </a> </h4>	
+					<p align="left">  <a href="javascript: void(0);" onClick="toggle('q2')"> Abstract</a>
+
+                            <div id="q2" style="display:none;">
+Many empirical studies document that entering the export market raises a firm's productivity. I study whether entering the export market results in differential increases in input productivities at the firm level (non-neutral change). I develop a model that distinguishes between firm-level skilled and unskilled labor-augmenting productivities and material input prices. Applying the model to data on the Colombian apparel manufacturers, I find that exporting raises the skilled labor-augmenting productivity by a 7.2-percentage point more than the unskilled counterpart. In a counterfactual simulation in which exporting raises the two productivities equally, the mean differences in skilled-to-unskilled employee ratios between exporters and non-exporters are 50 percent smaller than the data counterparts. The result suggests that non-neutral productivity gain from trade is central in shaping the input allocation differences between exporters and non-exporters.</div></p>
+
+			                <h4> <a href = "wp2_joonkyo.pdf"  target="_blank"> Trade Dynamics of Colombian Chemical Plants: Productivity and Trade Cost Complementarity </a>  </h4>
+
+                               <p align="left">  	<a href="javascript: void(0);" onClick="toggle('q3')"> Abstract</a>
+
+                            <div id="q3" style="display:none;">
+This paper estimates a dynamic model of the firm's joint export and import decision process. In the model, participating in trade improves within-period profits and future productivity. In addition, doing one trade activity facilitates the other by reducing the associated fixed/sunk costs. Employing a Bayesian MCMC estimator, I fit the model to Colombian chemical plant panel data from 1981 to 1985. Two findings stand out: (i) importing increases future productivity significantly while exporting does not. (ii) importing facilitates exporting by lowering the sunk costs of entering the export market, while exporting facilitates importing by decreasing the fixed costs of continuing import. A counterfactual simulation shows that subsidizing the fixed costs of importing is the most effective among trade cost subsidy schemes in improving the average productivity and firm value.</div></p>
 
 					</section>
 
 
-                               <!-- Four -->
+                               <!-- Three -->
 					<section id="progress">
 					<h2>Work in Progress</h2>
 
 					<h4> Online Banking and the Dynamics of Branch Consolidation (with <a href="https://sites.google.com/view/ms-park/" target="_blank"> Minsung Park</a>) </h4>	
+                                   <p align="left">  	<a href="javascript: void(0);" onClick="toggle('q4')"> Description</a>
 
-  		                        <p align="left"> <b><u>Description</u>: </b> We study the dynamics of brick-to-barter branch consolidation in response to rollouts of online banking. This consolidation can be inefficient when banks strategically delay branch closure in hopes of outlasting their rival branches. Leveraging a horizontal merger between two mega banks in 2015, we aim to quantify this inefficiency in the South Korean banking industry (2010-2019). Employing detailed micro-data on commercial bank branches, we find evidence of strategic delay played by the banks. Inspired by this evidence, we develop and estimate a dynamic game of branch closure to quantify the efficiency improvement induced by the 2015 horizontal merger. </p>
+                            <div id="q4" style="display:none;">
+We study the dynamics of brick-to-barter branch consolidation in response to rollouts of online banking. This consolidation can be inefficient when banks strategically delay branch closure in hopes of outlasting their rival branches. Leveraging a horizontal merger between two mega banks in 2015, we aim to quantify this inefficiency in the South Korean banking industry (2010-2019). Employing detailed micro-data on commercial bank branches, we find evidence of strategic delay played by the banks. Inspired by this evidence, we develop and estimate a dynamic game of branch closure to quantify the efficiency improvement induced by the 2015 horizontal merger.</div></p>
 
 					</section>
 
 
-				<!-- Five -->
+				<!-- Four -->
 					<section id="pub">
 					<h2>Publications in Korean </h2>
 
@@ -81,6 +99,7 @@
                                         <h4> Multiple of Credit Guarantee Operation as a Facilitator of Aggressive Credit Supply, with Jaesung Park, Journal of SME Finance, Volume 41, Number 1, April 2021
 					
                                         </section>
+
 
 
 				<!-- Four -->
