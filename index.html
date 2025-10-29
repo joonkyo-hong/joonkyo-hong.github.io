@@ -26,17 +26,35 @@ function toggle(obj) {
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/new.JPG" style="width:100%"> </a>
-                                        <h><center>
-                                                    <br> <strong><font size="+3">Joonkyo Hong</font></strong> </br> 
-                                                    <br> <font size="+0"> Assistant Professor of Economics </font> </br>
-                                                         <font size="+0"> National Taiwan University </font>
-                                       </center></h>
 
-        </div>                 
-			</header>
+		<header id="header">
+			<style>
+				#header .inner {
+					text-align: center;
+				}
+
+				#header .image.avatar {
+					display: inline-block;
+					text-align: center;
+					width: 100%;
+				}
+                #header .image.avatar img {
+                	width: 100%;
+                	max-width: 300px;
+                	display: inline-block;
+                }
+            </style>
+
+            <div class="inner">
+            	<a href="#" class="image avatar"><img src="images/new.JPG"></a>
+            	<h><center>
+            		<br> <strong><font size="+3">Joonkyo Hong</font></strong> </br> 
+            		<br> <font size="+1"> Assistant Professor of Economics </font> </br>
+            		<font size="+1"> National Taiwan University </font>
+            		<br> <strong> <a href = "cv.pdf"  target="_blank"> CV </a> </strong> </br>
+            	</center></h>
+            </div>                 
+        </header>
 
 		<!-- Main -->
 			<div id="main">
@@ -44,28 +62,22 @@ function toggle(obj) {
 				<!-- One -->
 					<section id="one">
                                 <h2>About</h2>
-						<p align="left"> I am an applied microeconomist in <a href = "https://econ.ntu.edu.tw/en/home-en"  target="_blank"> the Department of Economics at National Taiwan University,</a> with a specialization in Industrial Organization. My research agenda centers around estimating dynamic models of discrete actions and production functions, with applications in the entry-exit dynamics of retail businesses and international trade within manufacturing sectors.</p>
+						<p align="left"> I am an applied microeconomist in <a href = "https://econ.ntu.edu.tw/en/home-en"  target="_blank"> the Department of Economics at National Taiwan University,</a> with a specialization in Industrial Organization. My research agenda centers around estimating dynamic models of discrete actions and production technologies, with applications in the entry-exit dynamics of retail businesses and international trade within manufacturing sectors.</p>
 
-												
-						<p> You can find my <a href = "cv.pdf"  target="_blank"> CV </a>.</p>
+						<p><strong> Education </strong>: 
+							<br /> Ph.D. in Economics, 2023, The Pennsylvania State University
+							<br /> M.A. in Economics, 2017, Korea University
+							<br/> B.A. in Economics, 2015, Korea University
+						</p>
 
-<p><strong> Education </strong>: 
-
-<br /> Ph.D. in Economics, 2023, The Pennsylvania State University
-<br /> M.A. in Economics, 2017, Korea University
-<br/> B.A. in Economics, 2015, Korea University
-</p>
-
-
-<p><strong> Contact Information </strong>: 
-
-<br /> Department of Economics
-<br /> National Taiwan University
-<br /> No.1, Sec 4, Roosevelt Road, Taipei, 10617 Taiwan
-<br />
-<br />Tel: +886-2-3366-8389
-<br />Email: <a href="mailto:jkhong@ntu.edu.tw">jkhong@ntu.edu.tw</a> 
-</p>
+						<p><strong> Contact Information </strong>: 
+							<br /> Department of Economics
+							<br /> National Taiwan University
+							<br /> No.1, Sec 4, Roosevelt Road, Taipei, 10617 Taiwan
+							<br />
+							<br />Tel: +886-2-3366-8389
+							<br />Email: <a href="mailto:jkhong@ntu.edu.tw">jkhong@ntu.edu.tw</a> 
+						</p>
 
 
 					</section>
@@ -80,14 +92,6 @@ function toggle(obj) {
 
                             <div id="q1" style="display:none;">
                             This study examines whether exporting enhances efficiency and favors specific inputs. We develop a production function model within a dynamic exporting and investment framework, capturing factor-biased technical changes. Using Kalman filtering to address measurement error and propensity score matching to control for self-selection into exporting, we analyze Colombia’s manufacturing sectors from 1981 to 1991. New exporters achieve a 4% annual increase in labor-augmenting and unskilled labor relative productivity, with no change in Hicks-neutral productivity. Unskilled labor-augmenting productivity grows by 8% annually, aligning with machinery asset expansion, while TFP rises by 3% per year.</div></p>
-
-					<h4> <a href = "https://drive.google.com/file/d/1jtr6Yyrg1sp6gxn-9OWbh3LpWcyM2Ha2/view?usp=sharing" target="_blank"> Unveiling Plant-Product Productivity via First-Order Conditions: Robust Replication of Orr (2022) </a> (with <a href="https://www.davideluparello.com" target="_blank"> Davide Luparello</a>) <a href = "https://ideas.repec.org/p/zbw/i4rdps/181.html" target="_blank"> [14R Discussion Paper] </a>  <em> -- Revisions Requested at Journal of Applied Econometrics </em> </a> </h4>
-
-					<p align="left">  <a href="javascript: void(0);" onClick="toggle('q2')"> Abstract</a>
-
-                            <div id="q2" style="display:none;">
-                           In this study, we evaluate the reproducibility and replicability of Scott Orr’s (Journal of Political Economy 2022; 130(11): 2771–2828) innovative approach for identifying within-plant productivity differences across product lines. Orr’s methodology allows the estimation of plant-product level productivity, contingent upon a well-behaved pre-estimated demand system, which requires carefully chosen instrumental variables (IVs) for output prices. Using Orr’s STATA replication package, we successfully replicate all primary estimates with the ASI Indian plant-level panel data from 2000 to 2007. Additionally, applying Orr’s replication codes to a sample from 2011 to 2020 reveals that the suggested IVs do not perform as expected.</div></p>
-
 
                     <h4> <a href = "wp_HLP.pdf"  target="_blank"> Trade, Oligopsony Power, and Wage Inequality </a> (with <a href="https://homepage.ntu.edu.tw/~liujt/" target="_blank"> Jin-Tan Liu </a> and <a href="https://sites.google.com/view/xinlepang/" target="_blank"> Xinle Pang </a>) </h4> 
 
@@ -116,19 +120,34 @@ function toggle(obj) {
 
 
                                <!-- Three -->
+					<section id="published_accepted">
+					<h2>Published/Accepted Papers</h2>
+
+					<h4> <a href = "https://drive.google.com/file/d/1jtr6Yyrg1sp6gxn-9OWbh3LpWcyM2Ha2/view?usp=sharing" target="_blank"> Unveiling Plant-Product Productivity via First-Order Conditions: Robust Replication of Orr (2022) </a> (with <a href="https://www.davideluparello.com" target="_blank"> Davide Luparello</a>) <a href = "onlineapp_focpaper.pdf"  target="_blank"> [Online Appendix </a>]  <a href = "https://ideas.repec.org/p/zbw/i4rdps/181.html" target="_blank"> [14R Discussion Paper] </a>  <em> -- Conditionally Accepted at Journal of Applied Econometrics </em> </a> </h4>
+
+					<p align="left">  <a href="javascript: void(0);" onClick="toggle('q2')"> Abstract</a>
+
+                            <div id="q2" style="display:none;">
+                           We assess the replicability of Orr (2022)'s method for estimating within-plant productivity across product lines, which combines demand estimation with cost minimization. The original study uses input price shocks in other output markets as instrumental variables, with exclusion restrictions based on downstream purchase shares. Reconstructing the original dataset of Indian machinery producers from 2000--2007, we reproduce the main productivity patterns and demonstrate their robustness to variations in the exclusion threshold. The main results remain robust in extended samples (2010--2019, 2000--2019) when calibrating demand parameters to Orr (2022)'s 2000-2007 estimates, as estimation on these extended periods yields inadmissible demand systems.</div></p>
+
+					</section>					
+
+
+                               <!-- Four -->
 					<section id="progress">
 					<h2>Work in Progress</h2>
 
 					<h4> Stay or Leave?: Online Banking, Merger, and Dynamics of Bank Branches (with <a href="https://sites.google.com/view/ms-park/" target="_blank"> Minsung Park</a>) </h4>	
-                                   <p align="left">  	<a href="javascript: void(0);" onClick="toggle('q5')"> Description</a>
+                                   <p align="left">  	<a href="javascript: void(0);" onClick="toggle('q6')"> Description</a>
 
-                            <div id="q5" style="display:none;">
+                            <div id="q6" style="display:none;">
                             We study the effects of a merger on banks' decisions to close brick-to-mortar branches in response to the rise of online banking. Online banking tends to lead to reduced demand for branch services, but the responding branch reduction can be inefficiently slow when banks strategically delay closures to outlast competing branches. A merger can expedite branch closures for the merging banks by internalizing such business-stealing motives. However, non-merging banks might free-ride on this effort, slowing the overall branch reduction. Leveraging a 2015 merger between two mega banks in South Korea, we aim to capture this trade-off in the South Korean banking industry from 2010 to 2019. Our difference-in-differences framework reveals a 25 percent reduction in branches for the merging bank in local markets directly affected by the merger. In contrast, non-merging banks only reduce branches by 4 percent in the same markets, underscoring the significant impact of free-riding motives. Inspired by this evidence, we plan to develop and estimate a dynamic game of strategic branch opening-closure to quantify the welfare implications of the merger and assess the relative importance of two countervailing strategic motives.</div></p>
 
 					</section>
 
 
 				<!-- Four -->
+				<!--
 					<section id="pub">
 					<h2>Publications in Korean </h2>
 
@@ -139,6 +158,7 @@ function toggle(obj) {
 					<h4> Decomposition of the Business Cycle Shock and the Default Rate of SMEs in Korea (with Jaesung Park and Sumi Na), <em> Journal of Derivatives and Quantitative Studies </em>, Volume 27, Number 4, November 2019  	
 									
                                         </section>
+                -->                        
 
 
 
